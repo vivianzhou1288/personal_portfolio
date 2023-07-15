@@ -162,7 +162,7 @@ const projects = [
   {
     name: "Music App",
     description:
-      "App-based platform that allows Cornell users to play music made by Cornell students.",
+      "App-based platform that allows Cornell users to play and upload music made by Cornell students.",
     tags: [
       {
         name: "Swift",
