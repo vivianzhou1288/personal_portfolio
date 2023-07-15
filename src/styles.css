@@ -1,0 +1,19 @@
+/*Footer*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1.875rem 0;
+  }
+  .icons .fa {
+    color: white;
+    margin: 0 0.813rem;
+    cursor: pointer;
+    padding: 1.125rem 0;
+    font-size: 1.5rem;
+  }
+  .footer h5 {
+    font-size: 1rem;
+  }
+  .footer h3 {
+    font-size: 2rem;
+  }
