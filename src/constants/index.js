@@ -105,7 +105,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2022 - Aug 2022",
     points: [
-      "Assited in designing and developing a new and modernized website for the organization",
+      "Assisted in designing and developing a new and modernized website for the organization",
       "Developed and maintained web applications using Vue.js",
     ],
   },
