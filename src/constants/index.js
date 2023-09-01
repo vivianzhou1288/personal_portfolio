@@ -15,6 +15,7 @@ import {
   digital,
   orie,
   musicapp,
+  movieapp,
   marvel,
   china,
 } from "../assets";
@@ -81,9 +82,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing the user interface of new marketing features for the app, using React Native and TypeScript, enabling users to gain marketing insights for better business awareness.",
+      "Developing the functionality to allow users to edit the captions of AI-generated post ideas to align with their business",
+      "Creating features that enable users to upload images from their phone or phone camera for the post ideas",
+      "Assisting in developing an Ask AI chat functionality for the app, allowing users to ask Cashaam’s AI any questions regarding social media content",
+      "Developing and designing React components, like a dropdown menu, for reuse throughout the app",
+      "Executed mini projects like fetching information from Cashaam’s API for a website using React.js",
     ],
   },
   {
@@ -105,8 +109,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2022 - Aug 2022",
     points: [
-      "Assisted in designing and developing a new and modernized website for the organization",
-      "Developed and maintained web applications using Vue.js",
+      "Assisted in designing and developing a new modernized website for the organization using Vue.js",
+      "Collaborated on a project page to showcase Detester’s past and current projects",
     ],
   },
   {
@@ -141,7 +145,7 @@ const extracurriculars = [
     iconBg: "#E6DEDD",
     date: "Feb 2023 - Present",
     points: [
-      "Creating a chat bot for Cornell students to use to obtain information about the campus",
+      "Collaborating in a team to develop a Python-based chatbot, with a personality, to provide campus information to Cornell students",
       "Designing a playable Cornell where different buildings on campus would have an unique personality",
     ],
   },
@@ -150,15 +154,35 @@ const extracurriculars = [
     club_name: "Cornell Engineering ORIE Department",
     icon: orie,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Researched optimization algorithms like the stable roommate problem, kidney exchange algorithms, and maximum non-bipartite matching",
-      "Optimizing dorm swapping at Cornell",
+      "Conducted research in a team on optimization algorithms like maximum non-bipartite matching and kidney swap algorithms to optimize dorm swaps at Cornell",
     ],
   },
 ];
 
 const projects = [
+  {
+    name: "WatcherList",
+    description:
+      "App-based platform that allows users to browse trending movies or TV shows.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Github",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movieapp,
+    source_code_link: "https://github.com/armita-jamshidi/music_app",
+  },
   {
     name: "Music App",
     description:
@@ -201,27 +225,6 @@ const projects = [
     image: china,
     source_code_link:
       "https://github.com/vivianzhou1288/design-scaffold-project-choice-vivkenda",
-  },
-  {
-    name: "Marvel FunkoPop",
-    description:
-      "Web application for Marvel FunkoPops. A fun project create during a computer science class in high school. Users are able to add different Marvel FunkoPops into a shopping cart.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: marvel,
-    source_code_link: "https://github.com/vivianzhou1288/shoppingcart-",
   },
 ];
 

@@ -23,6 +23,7 @@ import digital from "./club/digital.png";
 import orie from "./club/orie.png";
 
 import musicapp from "./music-app.png";
+import movieapp from "./movieapp.png";
 import marvel from "./marvel.png";
 import china from "./china.png";
 
@@ -48,6 +49,7 @@ export {
   digital,
   orie,
   musicapp,
+  movieapp,
   marvel,
   china,
 };
