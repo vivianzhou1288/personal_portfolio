@@ -113,28 +113,6 @@ const experiences = [
       "Collaborated on a project page to showcase Detester’s past and current projects",
     ],
   },
-  {
-    title: "Technology Intern",
-    company_name: "Brooklyn Public Library",
-    icon: library,
-    iconBg: "#E6DEDD",
-    date: "Jul 2021 - Jun 2022",
-    points: [
-      "Participated in workshops relating to programming and Google suite applications",
-      "Arranged vitual technology programs for the public to utilized",
-    ],
-  },
-  {
-    title: "Junior Web Developer Intern",
-    company_name: "Caddell Prep",
-    icon: caddell,
-    iconBg: "#E6DEDD",
-    date: "Jul 2021 - Jun 2022",
-    points: [
-      "Created practice SAT questions and explanations on how to complete them for a new tutoring program",
-      "Updated the website, using HTML and Wordpress, with homework and quizzes for students to complete",
-    ],
-  },
 ];
 
 const extracurriculars = [
@@ -181,7 +159,7 @@ const projects = [
       },
     ],
     image: movieapp,
-    source_code_link: "https://github.com/armita-jamshidi/music_app",
+    source_code_link: "https://github.com/vivianzhou1288/movie-app",
   },
   {
     name: "Music App",
