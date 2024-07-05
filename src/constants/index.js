@@ -77,15 +77,28 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineering Intern",
+    company_name: "Workhelio",
+    icon: "https://cdn-icons-png.flaticon.com/512/2083/2083417.png",
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - May 2024",
+    points: [
+      "Developing conversational interfaces using Dialog CX and Gemini AI for better conversational flows",
+      "Assisting in the development of the startup’s product using React.js",
+      "Building the user experience for users to ask questions in English and we generate SQL code for them",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
     company_name: "Cashaam",
     icon: cashaam,
     iconBg: "#E6DEDD",
     date: "July 2023 - Present",
     points: [
-      "Implementing the user interface of new marketing features for the app, using React Native and TypeScript, enabling users to gain marketing insights for better business awareness.",
+      "Implementing the user interface of new marketing features for the app, using React Native and TypeScript, enabling users to gain marketing insights for better business awareness",
       "Developing the functionality to allow users to edit the captions of AI-generated post ideas to align with their business",
       "Creating features that enable users to upload images from their phone or phone camera for the post ideas",
       "Assisting in developing an Ask AI chat functionality for the app, allowing users to ask Cashaam’s AI any questions regarding social media content",
+      "Trained AI models to generate better creative Instagram captions for products based on user-uploaded images on Cashaam’s app",
       "Developing and designing React components, like a dropdown menu, for reuse throughout the app",
       "Executed mini projects like fetching information from Cashaam’s API for a website using React.js",
     ],
@@ -97,9 +110,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2022 - Aug 2022",
     points: [
-      "Researched and developed YouthSi's brand and social media policy.",
-      "Managed YouthSI's Instragram Account.",
-      "Wrote blogs about events teens and young adults can attend in Staten Island.",
+      "Researched and developed YouthSi's brand and social media policy",
+      "Managed YouthSI's Instagram Account",
+      "Wrote blogs about events teens and young adults can attend in Staten Island",
     ],
   },
   {
@@ -117,14 +130,13 @@ const experiences = [
 
 const extracurriculars = [
   {
-    title: "Member",
-    club_name: "Digital Humanities",
+    title: "Developer/Member",
+    club_name: "Cornell webdev",
     icon: digital,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 - Present",
+    date: "Sep 2023 - Present",
     points: [
-      "Collaborating in a team to develop a Python-based chatbot, with a personality, to provide campus information to Cornell students",
-      "Designing a playable Cornell where different buildings on campus would have an unique personality",
+      "Collaborating in a team to create a web application that allows Cornell students to sell school supplies that are no longer needed, using React.js and Express.js",
     ],
   },
   {
