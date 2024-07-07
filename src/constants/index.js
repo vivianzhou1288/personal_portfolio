@@ -80,7 +80,7 @@ const experiences = [
     company_name: "Workhelio",
     icon: "https://cdn-icons-png.flaticon.com/512/2083/2083417.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - May 2024",
+    date: "Jan 2024 - Present",
     points: [
       "Developing conversational interfaces using Dialog CX and Gemini AI for better conversational flows",
       "Assisting in the development of the startup’s product using React.js",
