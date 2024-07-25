@@ -12,6 +12,9 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import swift from "./tech/swift.svg";
+import nodejs from "./tech/nodejs.png";
+import express from "./tech/express.png";
+import mongodb from "./tech/mongodb.png";
 
 import cashaam from "./company/cashaam.png";
 import illuminet from "./company/illuminet.png";
@@ -22,6 +25,7 @@ import caddell from "./company/caddell.jpg";
 import digital from "./club/digital.png";
 import orie from "./club/orie.png";
 
+import travelmedia from "./travelmedia.png";
 import musicapp from "./music-app.png";
 import movieapp from "./movieapp.png";
 import marvel from "./marvel.png";
@@ -41,6 +45,9 @@ export {
   reactjs,
   tailwind,
   swift,
+  nodejs,
+  express,
+  mongodb,
   cashaam,
   illuminet,
   detester,
@@ -48,6 +55,7 @@ export {
   caddell,
   digital,
   orie,
+  travelmedia,
   musicapp,
   movieapp,
   marvel,

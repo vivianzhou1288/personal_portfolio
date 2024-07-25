@@ -7,15 +7,16 @@ import {
   reactjs,
   tailwind,
   swift,
+  nodejs,
+  express,
+  mongodb,
   cashaam,
-  illuminet,
   detester,
-  library,
-  caddell,
   digital,
   orie,
   musicapp,
   movieapp,
+  travelmedia,
   marvel,
   china,
 } from "../assets";
@@ -65,6 +66,18 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Node.js",
+    icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -104,18 +117,6 @@ const experiences = [
     ],
   },
   {
-    title: "Marketing Intern",
-    company_name: "illumiNET Media",
-    icon: illuminet,
-    iconBg: "#E6DEDD",
-    date: "Jul 2022 - Aug 2022",
-    points: [
-      "Researched and developed YouthSi's brand and social media policy",
-      "Managed YouthSI's Instagram Account",
-      "Wrote blogs about events teens and young adults can attend in Staten Island",
-    ],
-  },
-  {
     title: "Web Development Intern",
     company_name: "Detester Magazine",
     icon: detester,
@@ -152,6 +153,27 @@ const extracurriculars = [
 ];
 
 const projects = [
+  {
+    name: "Travel Media",
+    description:
+      "Web-based application that allows users to upload posts about places they travel and interact with each other posts.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelmedia,
+    source_code_link: "https://github.com/vivianzhou1288/travel_media",
+  },
   {
     name: "WatcherList",
     description:
@@ -194,28 +216,28 @@ const projects = [
     image: musicapp,
     source_code_link: "https://github.com/armita-jamshidi/music_app",
   },
-  {
-    name: "China",
-    description:
-      "Cultural web application on China. The website displays different aspects of China's culture such as the cuisine, tourist attractions, and traditions.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: china,
-    source_code_link:
-      "https://github.com/vivianzhou1288/design-scaffold-project-choice-vivkenda",
-  },
+  // {
+  //   name: "China",
+  //   description:
+  //     "Cultural web application on China. The website displays different aspects of China's culture such as the cuisine, tourist attractions, and traditions.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: china,
+  //   source_code_link:
+  //     "https://github.com/vivianzhou1288/design-scaffold-project-choice-vivkenda",
+  // },
 ];
 
 export { technologies, experiences, extracurriculars, projects };

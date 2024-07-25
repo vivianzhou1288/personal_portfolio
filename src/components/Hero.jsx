@@ -18,6 +18,11 @@ const Hero = () => {
           <p className = {`${styles.heroSubText} mt-2 text-white-100`}>
             I am a student at Cornell University <br className ="sm:block hidden" /> majoring in Computer Science.
           </p>
+          <div className = "mt-5">
+            <a href="https://drive.google.com/file/d/1NWGaqyOsZ0XI2BWYXbdCqKLywkoN_zRd/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <button className = "p-3 rounded border-0 cursor-pointer">Resume</button>
+            </a>
+          </div>
         </div>
       </div>
       </motion.div>
