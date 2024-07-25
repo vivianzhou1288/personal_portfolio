@@ -108,7 +108,7 @@ const experiences = [
     company_name: "Cashaam",
     icon: cashaam,
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "July 2023 - Oct 2023",
     points: [
       "Implementing the user interface of new marketing features for the app, using React Native and TypeScript, enabling users to gain marketing insights for better business awareness",
       "Developing the functionality to allow users to edit the captions of AI-generated post ideas to align with their business",
