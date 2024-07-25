@@ -41,7 +41,7 @@ const Extracurriculars = () => {
   return (
     <div id = "extracurriculars">
       <motion.div variants = {textVariant()}>
-        <p className = {`${styles.sectionSubText} mt-20`}>What I have done in School</p>
+        <p className = {`${styles.sectionSubText} mt-20`}>What I have done outside of work</p>
         <h2 className = {styles.sectionHeadText}>Extracurricular Activities.</h2>
       </motion.div>
 

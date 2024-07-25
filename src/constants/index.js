@@ -12,6 +12,8 @@ import {
   mongodb,
   cashaam,
   detester,
+  headstarter,
+  webdev,
   digital,
   orie,
   musicapp,
@@ -97,7 +99,8 @@ const experiences = [
     points: [
       "Developing conversational interfaces using Dialog CX and Gemini AI for better conversational flows",
       "Assisting in the development of the startup’s product using React.js",
-      "Building the user experience for users to ask questions in English and we generate SQL code for them",
+      "Building the user experience for users to ask questions in English, which are then processed by an AI to generate SQL code",
+      "Developing a Query Assistant Chrome extension, using React.js, enabling users to ask the AI questions and receive generated SQL queries to help them with their database search",
     ],
   },
   {
@@ -112,8 +115,8 @@ const experiences = [
       "Creating features that enable users to upload images from their phone or phone camera for the post ideas",
       "Assisting in developing an Ask AI chat functionality for the app, allowing users to ask Cashaam’s AI any questions regarding social media content",
       "Trained AI models to generate better creative Instagram captions for products based on user-uploaded images on Cashaam’s app",
-      "Developing and designing React components, like a dropdown menu, for reuse throughout the app",
-      "Executed mini projects like fetching information from Cashaam’s API for a website using React.js",
+      // "Developing and designing React components, like a dropdown menu, for reuse throughout the app",
+      // "Executed mini projects like fetching information from Cashaam’s API for a website using React.js",
     ],
   },
   {
@@ -131,9 +134,19 @@ const experiences = [
 
 const extracurriculars = [
   {
+    title: "Software Engineering Fellow",
+    club_name: "Headstarter",
+    icon: headstarter,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - Present",
+    points: [
+      "Developing 5+ AI applications using NextJS, OpenAI, and StripeAPI",
+    ],
+  },
+  {
     title: "Developer/Member",
     club_name: "Cornell webdev",
-    icon: digital,
+    icon: webdev,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Present",
     points: [
@@ -156,7 +169,7 @@ const projects = [
   {
     name: "Travel Media",
     description:
-      "Web-based application that allows users to upload posts about places they travel and interact with each other posts.",
+      "Web-based application that allows users to upload posts about places they traveled to.",
     tags: [
       {
         name: "ReactJS",

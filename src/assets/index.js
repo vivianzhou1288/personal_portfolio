@@ -22,6 +22,8 @@ import detester from "./company/detester.png";
 import library from "./company/library.png";
 import caddell from "./company/caddell.jpg";
 
+import headstarter from "./club/headstarter.jpg";
+import webdev from "./club/webdev.jpeg";
 import digital from "./club/digital.png";
 import orie from "./club/orie.png";
 
@@ -53,6 +55,8 @@ export {
   detester,
   library,
   caddell,
+  headstarter,
+  webdev,
   digital,
   orie,
   travelmedia,
