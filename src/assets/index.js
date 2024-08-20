@@ -28,6 +28,9 @@ import digital from "./club/digital.png";
 import orie from "./club/orie.png";
 
 import travelmedia from "./travelmedia.png";
+import wizlet from "./wizlet.png";
+import sportly from "./sportly.png";
+import bot from "./bot.png";
 import musicapp from "./music-app.png";
 import movieapp from "./movieapp.png";
 import marvel from "./marvel.png";
@@ -60,6 +63,9 @@ export {
   digital,
   orie,
   travelmedia,
+  wizlet,
+  sportly,
+  bot,
   musicapp,
   movieapp,
   marvel,

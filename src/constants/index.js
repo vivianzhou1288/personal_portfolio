@@ -14,13 +14,13 @@ import {
   detester,
   headstarter,
   webdev,
-  digital,
   orie,
-  musicapp,
-  movieapp,
   travelmedia,
-  marvel,
-  china,
+  wizlet,
+  sportly,
+  bot,
+  movieapp,
+  musicapp,
 } from "../assets";
 
 export const navLinks = [
@@ -186,6 +186,68 @@ const projects = [
     ],
     image: travelmedia,
     source_code_link: "https://github.com/vivianzhou1288/travel_media",
+  },
+  {
+    name: "Wizlet",
+    description:
+      "Web-based application that generates flashcard sets base on user's queries.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "StripeAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wizlet,
+    link: "https://wizlet.vercel.app/",
+    source_code_link: "https://github.com/sylaschacko/flashcards",
+  },
+  {
+    name: "Sportly",
+    description:
+      "Web-based application that that scrapes athlete statistics an user-provided URL.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sportly,
+    link: "https://sportsdatascraper.vercel.app/",
+    source_code_link: "https://github.com/vivianzhou1288/sportsdatascraper",
+  },
+  {
+    name: "Travel Assistant Bot",
+    description:
+      "Web-based application that provides travel assistance to users utilizing a bot.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenRouter API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bot,
+    link: "https://travelassistantbot.vercel.app/",
+    source_code_link: "https://github.com/vivianzhou1288/ai-customer-support",
   },
   {
     name: "WatcherList",
