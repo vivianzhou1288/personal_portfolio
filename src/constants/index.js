@@ -10,6 +10,7 @@ import {
   nodejs,
   express,
   mongodb,
+  spring,
   cashaam,
   detester,
   headstarter,
@@ -51,6 +52,10 @@ const technologies = [
   {
     name: "Java",
     icon: java,
+  },
+  {
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "HTML",

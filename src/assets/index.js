@@ -15,6 +15,7 @@ import swift from "./tech/swift.svg";
 import nodejs from "./tech/nodejs.png";
 import express from "./tech/express.png";
 import mongodb from "./tech/mongodb.png";
+import spring from "./tech/spring.png";
 
 import cashaam from "./company/cashaam.png";
 import illuminet from "./company/illuminet.png";
@@ -54,6 +55,7 @@ export {
   nodejs,
   express,
   mongodb,
+  spring,
   cashaam,
   illuminet,
   detester,
