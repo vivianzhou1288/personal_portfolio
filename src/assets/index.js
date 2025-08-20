@@ -22,7 +22,9 @@ import illuminet from "./company/illuminet.png";
 import detester from "./company/detester.png";
 import library from "./company/library.png";
 import caddell from "./company/caddell.jpg";
+import helio from "./company/helio.png";
 
+import bowers from "./club/bowers.png";
 import headstarter from "./club/headstarter.jpg";
 import webdev from "./club/webdev.jpeg";
 import digital from "./club/digital.png";
@@ -61,6 +63,8 @@ export {
   detester,
   library,
   caddell,
+  helio,
+  bowers,
   headstarter,
   webdev,
   digital,

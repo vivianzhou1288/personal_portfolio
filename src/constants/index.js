@@ -13,6 +13,8 @@ import {
   spring,
   cashaam,
   detester,
+  helio,
+  bowers,
   headstarter,
   webdev,
   orie,
@@ -113,7 +115,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "Workhelio",
-    icon: "https://cdn-icons-png.flaticon.com/512/2083/2083417.png",
+    icon: helio,
     iconBg: "#E6DEDD",
     date: "Jan 2024 - Aug 2024",
     points: [
@@ -156,7 +158,7 @@ const extracurriculars = [
   {
     title: "Teaching Assistant",
     club_name: "Cornell Bowers CIS",
-    icon: webdev,
+    icon: bowers,
     iconBg: "#E6DEDD",
     date: "Jan 2025 - Present",
     points: [
