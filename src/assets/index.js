@@ -28,6 +28,7 @@ import digital from "./club/digital.png";
 import orie from "./club/orie.png";
 
 import travelmedia from "./travelmedia.png";
+import foodtastic from "./foodtastic.png";
 import wizlet from "./wizlet.png";
 import sportly from "./sportly.png";
 import bot from "./bot.png";
@@ -63,6 +64,7 @@ export {
   digital,
   orie,
   travelmedia,
+  foodtastic,
   wizlet,
   sportly,
   bot,

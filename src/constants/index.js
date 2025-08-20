@@ -16,6 +16,7 @@ import {
   webdev,
   orie,
   travelmedia,
+  foodtastic,
   wizlet,
   sportly,
   bot,
@@ -92,15 +93,31 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineering Intern",
+    company_name: "AIG",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/AIG_new_logo.svg/1200px-AIG_new_logo.svg.png",
+    iconBg: "#E6DEDD",
+    date: "Jun 2025 - Aug 2025",
+    points: [
+      "Integrated Splunk Real User Monitoring (RUM) into 2+ legacy Java and Spring applications using the singleton design pattern in an Agile environment, improving issue traceability and reducing developer troubleshooting time",
+      "Programmed Python scripts to transform OpenSearch JSON data into CSV reports, enabling trend analysis and data-driven decisions across 50+ teams; gained exposure to CI/CD pipelines through AWS services like Lambda for pipeline triggers",
+      "Built an automation workflow using Power Automate to trigger real-time Power BI dashboard refreshes upon new SharePoint data uploads, eliminating manual updates by up to 90%",
+      "Collaborated on an automated SQL query solution reducing compliance screening time from 30-60 minutes to 5 minutes",
+      "Guided 5 new developers on Spring application setup and presented technical walkthroughs on Splunk RUM implementation",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
     company_name: "Workhelio",
     icon: "https://cdn-icons-png.flaticon.com/512/2083/2083417.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - Aug 2024",
     points: [
-      "Developing conversational interfaces using Dialog CX and Gemini AI for better conversational flows",
-      "Assisting in the development of the startup’s product using React.js",
-      "Building the user experience for users to ask questions in English, which are then processed by an AI to generate SQL code",
+      "Designed and developed the user experience of a Query Assistant Chrome extension, using React.js, that reduces SQL query creation time for database search from hours to minutes, attracting around 40 weekly users ",
+      "Connected front-end components with back-end APIs to display the AI-generated SQL queries in response to user queries",
+      "Analyzed user metrics with Google Analytics and implemented 8 feature enhancements based on user feedback",
       "Developing a Query Assistant Chrome extension, using React.js, enabling users to ask the AI questions and receive generated SQL queries to help them with their database search",
+      "Conducted functionality testing on the extension by evaluating each feature for proper operation",
+      "Developed conversational interfaces using Dialog CX and Gemini AI for better conversational flows",
     ],
   },
   {
@@ -114,9 +131,7 @@ const experiences = [
       "Developing the functionality to allow users to edit the captions of AI-generated post ideas to align with their business",
       "Creating features that enable users to upload images from their phone or phone camera for the post ideas",
       "Assisting in developing an Ask AI chat functionality for the app, allowing users to ask Cashaam’s AI any questions regarding social media content",
-      "Trained AI models to generate better creative Instagram captions for products based on user-uploaded images on Cashaam’s app",
-      // "Developing and designing React components, like a dropdown menu, for reuse throughout the app",
-      // "Executed mini projects like fetching information from Cashaam’s API for a website using React.js",
+      "Trained and fine-tuned AI models using Google Cloud Vertex AI with prompt engineering techniques, increasing caption generation accuracy by 60% for user-uploaded product images",
     ],
   },
   {
@@ -134,23 +149,36 @@ const experiences = [
 
 const extracurriculars = [
   {
-    title: "Software Engineering Fellow",
-    club_name: "Headstarter",
-    icon: headstarter,
+    title: "Teaching Assistant",
+    club_name: "Cornell Bowers CIS",
+    icon: webdev,
     iconBg: "#E6DEDD",
-    date: "July 2024 - Present",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing 5+ AI applications using NextJS, OpenAI, and StripeAPI",
+      "Facilitate weekly office hours and discussion section of 30+ students, providing guidance on course material and assignments in a computer system organization and programming class",
+      "Refine assignment writeups and upgraded autograders to enhance clarity and ensure better student understanding",
     ],
   },
   {
-    title: "Developer/Member",
+    title: "Project Coordinator, Backend Developer",
     club_name: "Cornell webdev",
     icon: webdev,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Present",
     points: [
-      "Collaborating in a team to create a web application that allows Cornell students to sell school supplies that are no longer needed, using React.js and Express.js",
+      "Co-lead a team of developers to build a web platform that helps the local community discover beauty services nearby",
+      "Build a Next.js web app for Cornell students to buy/sell used items, collaborating with a designer and frontend developer",
+      "Exploring Apache Spark MLlib to build predictive models that enhance project functionality and user experience",
+    ],
+  },
+  {
+    title: "Software Engineering Fellow",
+    club_name: "Headstarter",
+    icon: headstarter,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - Sept 2024",
+    points: [
+      "Engineered over five AI-driven applications, in a team of four, using Next.js, OpenAI, AWS/Vercel, Firebase, Stripe API, and Pinecone, with a capstone project that had a goal of 1,000 waitlist sign-ups, 1,000 users, or $1,000 in revenue",
     ],
   },
   {
@@ -167,26 +195,49 @@ const extracurriculars = [
 
 const projects = [
   {
-    name: "Travel Media",
+    name: "D.N.M.",
     description:
-      "Web-based application that allows users to upload posts about places they traveled to.",
+      "Web-based application that recommends food and drink pairings based on a user-inputted movie, matching recipes to a movie’s vibe or ingredients mentioned in its script.",
     tags: [
       {
-        name: "ReactJS",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "SciPy",
         color: "pink-text-gradient",
       },
     ],
-    image: travelmedia,
-    source_code_link: "https://github.com/vivianzhou1288/travel_media",
+    image: foodtastic,
+    link: "http://4300showcase.infosci.cornell.edu:5221/",
+    source_code_link:
+      "https://github.com/selinalin116/4300-Flask-Template-JSON",
   },
+  // {
+  //   name: "Travel Media",
+  //   description:
+  //     "Web-based application that allows users to upload posts about places they traveled to.",
+  //   tags: [
+  //     {
+  //       name: "ReactJS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Node.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Express",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: travelmedia,
+  //   source_code_link: "https://github.com/vivianzhou1288/travel_media",
+  // },
   {
     name: "Wizlet",
     description:

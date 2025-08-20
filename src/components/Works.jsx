@@ -27,30 +27,46 @@ const ProjectCard = ({index, name, description, tags, image, link, source_code_l
             alt = {name}
             className = "w-full h-full object-cover rounded-2xl" />
 
-          {link ? <div className = "absolute inset-0 flex justify-start m-3 card-img_hover">
-            <div 
-              onClick = {() => window.open(link, "_blank")}
-              className = "violet-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img 
-                src = "https://cdn-icons-png.flaticon.com/512/154/154613.png"
-                alt = "link"
-                className = "w-1/2 h-1/2 object-contain" />
+          {/* Live Demo Link Button */}
+          {link ? (
+            <div className = "absolute inset-0 flex justify-start m-3">
+              <div 
+                onClick = {(e) => {
+                  e.stopPropagation();
+                  window.open(link, "_blank");
+                }}
+                className = "violet-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform duration-200 z-20"
+                style={{ cursor: 'pointer' }}
+                title="Live Demo"
+              >
+                <img 
+                  src = "https://cdn-icons-png.flaticon.com/512/154/154613.png"
+                  alt = "link"
+                  className = "w-1/2 h-1/2 object-contain pointer-events-none" />
+              </div>
             </div>
-          </div> : null}
+          ) : null}
 
-          <div className = "absolute inset-0 flex justify-end m-3 card-img_hover">
+          {/* GitHub Link Button */}
+          <div className = "absolute inset-0 flex justify-end m-3">
             <div 
-              onClick = {() => window.open(source_code_link, "_blank")}
-              className = "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick = {(e) => {
+                e.stopPropagation();
+                window.open(source_code_link, "_blank");
+              }}
+              className = "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform duration-200 z-20"
+              style={{ cursor: 'pointer' }}
+              title="Source Code"
             >
               <img 
                 src = {github}
                 alt = "github"
-                className = "w-1/2 h-1/2 object-contain" />
+                className = "w-1/2 h-1/2 object-contain pointer-events-none" />
             </div>
           </div>
+
           </div>
+
           <div className = "mt-5 text-center">
             <p className ="text-secondary text-[14px]">{description}</p>
           </div>
